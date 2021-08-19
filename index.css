@@ -1,0 +1,68 @@
+body {
+    background-color:#C9DFDA ;
+    margin: 0%;
+    height: 2973px;
+
+}
+.part1 {
+    width: 100%;
+    background-image: url(fotos/office.jpg);
+    background-size: 100%;
+    height: 1024px ;
+}
+/*start header*/
+#logo1 {
+    width: 10%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-left: 50px;
+}
+.nav_bar {
+    height: 200px;
+    position: relative;
+}
+.nav_elements {
+    float: right;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0%;
+    padding-right: 50px;
+}
+.nav_elements a {
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+    font-size: 2rem;
+}/*end header*/
+
+/*welcome text start*/
+.welcome_text {
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    height: 500px;  
+    margin-top: 150px; 
+}
+#t1 {
+    font-size: 5rem;
+    color: #5D00FF;
+    margin: 0%;
+}
+#t2 {
+    font-size: 3rem;
+    color: #6A8BFF;
+    margin: 0%;
+    position: relative;
+    padding-top: 10px;
+    left: 150px;
+
+}
+
+
+/*welcome text end*/
