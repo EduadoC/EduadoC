@@ -2,10 +2,9 @@ body {
     background-color:#C9DFDA ;
     margin: 0%;
     height: 2973px;
-
+    overflow-x: hidden;
 }
 .part1 {
-    width: 100%;
     background-image: url(fotos/office.jpg);
     background-size: 100%;
     height: 1024px ;
@@ -45,9 +44,8 @@ body {
 .welcome_text {
     text-align: center;
     border: 1px solid black;
-    width: 100%;
     height: 500px;  
-    margin-top: 150px; 
+    margin-top: 200px; 
 }
 #t1 {
     font-size: 5rem;
@@ -61,8 +59,60 @@ body {
     position: relative;
     padding-top: 10px;
     left: 150px;
-
 }
-
-
 /*welcome text end*/
+
+/*mit text start*/
+.text_mid {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 130px;
+    height: 450px;
+}
+.text_content {
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+}
+#btn_join {
+    font-size: 1.4rem;
+    background-color: #6A8BFF;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;   
+}
+/*mit text end*/
+
+/*part2 start*/
+.part2 {
+    
+    height: 1000px;
+    border: 1px solid black;
+    background-image: url(fotos/bkg_2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 460px;
+    padding: 100px;
+}
+.part2 div {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.tile_how {
+    background-image: url(fotos/how-it-works.jpg);
+    float: right;   
+}
+.duration {
+    background-image: url(fotos/time.jpg);      
+}
+.price {
+    background-image: url(fotos/money.jpg);
+    float: right;   
+}
+.why {
+    background-image: url(fotos/why-website.jpg);   
+}
+/*part2 end*/
