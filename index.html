@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="media_querry.css">
     </head>
     <body>
         <div class="part1">
@@ -26,10 +27,10 @@
             <div class="text_mid">
                 <img id="logo2" src="fotos/logo_small_icon_only.png" alt="Logo">
                 <div class="text_content">
-                    <p>I know how important your bussiness is. </p>
-                    <p>And i understand why you need that your Website to be so perfect.</p>
-                    <p>I also understand that we can’t know and do all of our selfs.</p>
-                    <p>So let me do the part that your client sees when he search on Google for your bussiness.</p>
+                    <p id="paragraph1">I know how important your bussiness is. </p>
+                    <p id="paragraph2">And i understand why you need that your Website to be so perfect.</p>
+                    <p id="paragraph3">I also understand that we can’t know and do all of our selfs.</p>
+                    <p id="paragraph4">So let me do the part that your client sees when he search on Google for your bussiness.</p>
                 </div>
                 <a id="btn_join" href="#">Start with only one click!</a>
             </div><!--midle text end-->
@@ -37,32 +38,38 @@
 
         <!--part2 with tiles start-->
         <div class="part2">
-            <div class="column">
-                <div class="row">
-                    <div class="how_it_works">
-                        <img src="fotos/how-it-works.jpg" alt="How it works?">
-                        <p class="tile_text">How it works?</p>
-                    </div>
-                    <div class="duration">
-                        <img src="fotos/time.jpg" alt="Duration">
-                        <p class="tile_text">Duration</p>
-                    </div>
-                </div>    
-            </div>
-            <div class="column2">
-                <div class="row">
-                    <div class="priceing">
-                        <img src="fotos/money.jpg" alt="Priceing">
-                        <p class="tile_text">Priceing</p>
-                    </div>
-                    <div class="why_a_website">
-                        <img src="fotos/why-website.jpg" alt="Why a Website?">
-                        <p class="tile_text">Why you need it?</p>
-                    </div>
+            <div class="tiles">
+                <a class="tile_text" id="tile_1" href="#"><span>How it works?</span></a>
+                <a class="tile_text" id="tile_2" href="#"><span>Duration</span></a>
+                <a class="tile_text" id="tile_3" href="#"><span>Priceing</span></a>
+                <a class="tile_text" id="tile_4" href="#"><span>Why you need one?</span></a>
                 </div>
             </div>
-
         </div><!--part2 with tiles start-->
 
+        <!--Footer strt5-->
+        <div class="footer">
+            <div class="email-form">
+                <div class="email">
+                    <label for="email">Your E-mail:</label>
+                    <input id="email" type="email" placeholder="Put your e-mail here!">
+                </div>
+                <div class="message">
+                    <label id="label_message" for="text">Message:</label>
+                    <input id="text" type="text" placeholder="Put your question here!">
+                </div>
+                <button id="send_btn">Send</button>
+            </div>
+            <ul class="footer_list">
+                <li><a href="">Frequent Questioin</a></li>
+                <li><a href=""> Contact</a></li>
+                <li><a href="">GitHub</a></li>
+            </ul>
+            <img id="logo_footer" src="fotos/logo_white_large.png" alt="Logo">
+            
+            <p id="copyright">Copyright &copy; 2021 Code iT with Eduard</p>
+            
+        </div>
+        <!--footer ends-->
     </body>
 </html>

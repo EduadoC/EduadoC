@@ -1,0 +1,101 @@
+@media only screen and (max-width: 700px) {
+    .nav_elements {
+        display: none;
+    }
+    #logo1 {
+        width:40%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0%;  
+    }  
+    .part1 {
+        background-image: url(fotos/office.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #t1{
+        font-size: 350%;
+    }
+    #t2 {
+        font-size: 250%;
+        margin: auto;
+        padding-top: 20px;
+        width: fit-content;
+        float: right;
+        position: relative;
+        right: 20%;
+        margin-left: 100px;
+    }
+    #logo2 {
+        width: 20%;
+    }
+    .tiles a {
+        width: 150px;
+        height: 150px;
+        display: block;
+    }
+    .part2 {
+        background-size: cover;
+    }
+    .tiles a span {
+        font-size: 1.5rem;
+        left: 75px;
+    }
+    .footer {
+        height: 600px;
+
+    }
+    .footer p {
+        left: 30%;
+        top: 250px;
+    }
+    .email-form {
+        float: none;
+        margin: auto;
+        top: 300px;
+        position: relative;
+    }
+    #logo_footer {
+        width: 25%;
+        top: -220px;
+        left: 0%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer_list {
+        float: none;
+        left: 35%;
+        transform: rotateX(-50%);
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .email-form {
+        margin-left: 20px;
+    }
+    .email label {
+        display: block;
+    }
+    .message label {
+        display: block;
+        margin: none;
+    }
+    #text{
+        margin-left: 0px;
+    }
+    #send_btn {
+        margin-left: 0px !important;
+    }
+    #t2 {
+        font-size: 250%;
+        margin: auto;
+        padding-top: 20px;
+        width: fit-content;
+        float: right;
+        position: relative;
+        right: 20%;
+        margin-left: 100px;
+    }
+}
+    
