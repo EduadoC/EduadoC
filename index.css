@@ -2,7 +2,6 @@ body {
     background-color:#C9DFDA ;
     margin: 0%;
     height: 2973px;
-    overflow-x: hidden;
 }
 .part1 {
     background-image: url(fotos/office.jpg);
@@ -83,36 +82,32 @@ body {
 /*mit text end*/
 
 /*part2 start*/
-.part2 {
-    
-    height: 1000px;
+.part2 { 
+    height: 888px;;
     border: 1px solid black;
     background-image: url(fotos/bkg_2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 460px;
-    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;   
 }
-.part2 div {
-    width: 600px;
-    height: 600px;
-    overflow: hidden;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    
+.column {
+    float:right;
 }
-.tile_how {
-    background-image: url(fotos/how-it-works.jpg);
-    float: right;   
+.row div p {
+    text-align: center;
 }
-.duration {
-    background-image: url(fotos/time.jpg);      
+.row img {
+    width: 500px;
+    height: 400px;
+    box-shadow: 5px 5px 5px rgb(187, 186, 186);
 }
-.price {
-    background-image: url(fotos/money.jpg);
-    float: right;   
+.tile_text {
+    position: relative;
+    bottom: 55px;
+    font-size: 1.4rem;
 }
-.why {
-    background-image: url(fotos/why-website.jpg);   
-}
+
+
 /*part2 end*/
