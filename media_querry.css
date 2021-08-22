@@ -1,4 +1,26 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1030px) {
+    .nav_elements {
+        display: none;
+    }
+    #logo1 {
+        width:40%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0%;  
+    } 
+    .tiles a:hover {
+        animation: none;
+    }
+    .tiles {
+        margin-left: 60px;
+    } 
+    .footer p {
+        left: 40%;
+        top: 150px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     .nav_elements {
         display: none;
     }
@@ -29,17 +51,16 @@
     #logo2 {
         width: 20%;
     }
-    .tiles a {
-        width: 150px;
-        height: 150px;
-        display: block;
+    .tiles {
+        margin-left: 40px;
     }
+
     .part2 {
         background-size: cover;
     }
     .tiles a span {
         font-size: 1.5rem;
-        left: 75px;
+        left: 120px;
     }
     .footer {
         height: 600px;
@@ -47,7 +68,7 @@
     }
     .footer p {
         left: 30%;
-        top: 250px;
+        top: 200px;
     }
     .email-form {
         float: none;
@@ -70,7 +91,7 @@
     }
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 425px){
     .email-form {
         margin-left: 20px;
     }
