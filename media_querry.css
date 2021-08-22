@@ -1,122 +1,171 @@
-@media only screen and (max-width: 1030px) {
-    .nav_elements {
-        display: none;
-    }
+@media only screen and (max-width: 1000px) {
     #logo1 {
-        width:40%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 0%;  
-    } 
-    .tiles a:hover {
-        animation: none;
-    }
-    .tiles {
-        margin-left: 60px;
-    } 
-    .footer p {
-        left: 40%;
-        top: 150px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .nav_elements {
-        display: none;
-    }
-    #logo1 {
-        width:40%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 0%;  
-    }  
-    .part1 {
-        background-image: url(fotos/office.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    #t1{
-        font-size: 350%;
-    }
-    #t2 {
-        font-size: 250%;
-        margin: auto;
-        padding-top: 20px;
-        width: fit-content;
-        float: right;
-        position: relative;
-        right: 20%;
-        margin-left: 100px;
-    }
-    #logo2 {
         width: 20%;
+     }
+     .nav_elements {
+        float: right;
+        margin: 5%;
+        font-size: 2.5vw;
+    }
+    .text_content, #btn_join {
+        font-size: 2vw;
+    }
+    .tiles_frame {
+        width: 65%;
+        height: fit-content;
+        margin: auto;
+        padding: 3%;
+        padding-left: 18%;
     }
     .tiles {
-        margin-left: 40px;
-    }
-
-    .part2 {
-        background-size: cover;
-    }
-    .tiles a span {
-        font-size: 1.5rem;
-        left: 120px;
-    }
-    .footer {
-        height: 600px;
-
-    }
-    .footer p {
-        left: 30%;
-        top: 200px;
-    }
-    .email-form {
-        float: none;
+        width: 100%;
         margin: auto;
-        top: 300px;
-        position: relative;
     }
-    #logo_footer {
-        width: 25%;
-        top: -220px;
-        left: 0%;
-        margin-left: 50%;
-        transform: translateX(-50%);
+    .tiles a {
+        text-decoration: none;
+        margin: 30px;
+        display: inline-block;
+        width: 20vw;
+        height: 20vw; 
+        border-radius: 5px;
+        box-shadow: 5px 10px 5px #6A8BFF;
     }
-    .footer_list {
-        float: none;
-        left: 35%;
-        transform: rotateX(-50%);
-        margin-top: 0%;
+    .tile_text span{
+        font-size: 2.4vw;
     }
-}
+    .email-form, .footer_list {
+        font-size: 1.8vw;
+    }
+    .email label, .message label {
+        display: block;   
+    }
+    #text, #email {
+        margin-left: 1%;
+        font-size: 1.3vw;
+        width: 80%;
+    }
+    .footer_list li, .email-form {
+        padding-bottom: 0%;
+        padding-top: 0%;
+    }
+    #text {
+        margin: 0%;
+        margin-bottom: 5px;
 
-@media only screen and (max-width: 425px){
-    .email-form {
-        margin-left: 20px;
-    }
-    .email label {
-        display: block;
-    }
-    .message label {
-        display: block;
-        margin: none;
-    }
-    #text{
-        margin-left: 0px;
     }
     #send_btn {
-        margin-left: 0px !important;
-    }
-    #t2 {
-        font-size: 250%;
-        margin: auto;
-        padding-top: 20px;
-        width: fit-content;
-        float: right;
-        position: relative;
-        right: 20%;
-        margin-left: 100px;
+        margin: 0%;
+        width: 85%;
     }
 }
-    
+
+@media all and (max-width: 810px) { /*header element gows down from here. now fixed*/
+    .nav_elements {
+        margin-left: 0%;
+    }
+
+}
+@media all and (max-width: 700px) {
+    .nav_elements {
+        display: none;
+    }
+    #logo1 {
+        width: 30%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);   
+    }
+    #menu_icon {
+        width: 10%;
+        display: block;
+        float: right;
+        margin: 10px;
+        margin-top: 40px;
+    }
+    #menu_icon:hover .nav_elements {
+        display: block;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    .text_content, #btn_join {
+        font-size: 3vw;
+    }
+    #btn_join {
+        width: 40%;
+    }
+    .tiles_frame {
+        width: 80%;
+    }
+    .tiles a {
+        width: 25vw;
+        height: 25vw; 
+    }
+    /* remake the footer for mobile */
+    .email-form {
+        float: none;
+        font-size: 140%;
+        margin: auto;
+        border: none;
+        width: 50%;
+    }
+    #text, #email {
+        width: 100%;
+        font-size: 90%;
+    }
+    #send_btn {
+        width: 100%;
+    }
+    .footer_list {
+        font-size: 1.2vw;
+        position: absolute;
+        right: 0%;
+        transform: translateX(0%);
+        position: unset;
+    }
+    #logo_footer {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 45%;
+    }
+    #copyright {
+        bottom: 0%;
+    }        
+    .footer_list {
+        box-sizing: content-box;
+        padding: 0%;
+        width: fit-content;
+        margin: auto;
+        padding-top: 30px;
+        font-size: 90%;   
+    }
+}
+@media all and (max-width: 500px){
+    .tiles_frame {
+        width: 100%;
+        padding-left: 13%;
+    }
+    .tiles a {
+        width: 25vw;
+        height: 25vw;
+    }
+    .welcome_text {
+        font-size: 50%;
+    }
+}
+@media all and (max-width: 400px) {
+    .tiles_frame {
+        width: 100%;
+        padding-left: 10%;
+    }
+    #text, #email {
+        font-size: 60%;
+    }
+}
+@media all and (max-width: 300px) {
+    .tiles_frame {
+        width: 100%;
+        padding-left: 5%;
+    }
+}

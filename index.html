@@ -9,6 +9,7 @@
         <div class="part1">
             <nav class="nav_bar"><!--header start-->
                 <img id="logo1" src="fotos/logo_small.png" alt="Logo">
+                <a href=""><img id="menu_icon" src="fotos/menu_icon.png" alt="menu_icon"></a>
                 <div class="nav_elements">
                     <a href="#">About me</a>
                     <a href="#">Priceing</a>
@@ -19,11 +20,11 @@
 
             <!--welcome text start-->
             <div class="welcome_text">
-                <p id="t1">Web Development, like a pro!</p>
+                <p id="t1">Web Development, for your bussines!</p>
                 <p id="t2">Your bussines beggin here.</p>
             </div>
             <!--welcome text end-->
-
+        </div><!--Part1 end-->
             <!--midle text start-->
             <div class="text_mid">
                 <img id="logo2" src="fotos/logo_small_icon_only.png" alt="Logo">
@@ -34,16 +35,19 @@
                     <p id="paragraph4">So let me do the part that your client sees when he search on Google for your bussiness.</p>
                 </div>
                 <a id="btn_join" href="#">Start with only one click!</a>
-            </div><!--midle text end-->
-        </div>
+            </div>
+            <!--midle text end-->
+        
 
         <!--part2 with tiles start-->
         <div class="part2">
             <div class="tiles">
-                <a class="tile_text" id="tile_1" href="#"><span>How it works?</span></a>
-                <a class="tile_text" id="tile_2" href="#"><span>Duration</span></a>
-                <a class="tile_text" id="tile_3" href="#"><span>Priceing</span></a>
-                <a class="tile_text" id="tile_4" href="#"><span>Why you need one?</span></a>
+                <div class="tiles_frame">
+                    <a class="tile_text" id="tile_1" href="#"><span>How it works?</span></a>
+                    <a class="tile_text" id="tile_2" href="#"><span>Duration</span></a>
+                    <a class="tile_text" id="tile_3" href="#"><span>Priceing</span></a>
+                    <a class="tile_text" id="tile_4" href="#"><span>Why you need one?</span></a>
+                </div>
             </div>
         </div><!--part2 with tiles start-->
 
@@ -58,7 +62,7 @@
                     <label id="label_message" for="text">Message:</label>
                     <input id="text" type="text" placeholder="Put your question here!">
                 </div>
-                <button id="send_btn">Send</button>
+                <a id="send_btn" href="#">Send</a>
             </div>
             <ul class="footer_list">
                 <li><a href="">Frequent Questioin</a></li>
@@ -66,9 +70,7 @@
                 <li><a href="">GitHub</a></li>
             </ul>
             <img id="logo_footer" src="fotos/logo_white_large.png" alt="Logo">
-            
-            <p id="copyright">Copyright &copy; 2021 Code iT with Eduard</p>
-            
+            <p id="copyright">Copyright &copy; 2021 Code iT with Eduard</p>    
         </div>
         <!--footer ends-->
     </body>
